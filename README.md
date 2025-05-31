@@ -29,13 +29,4 @@ This app uses the free [REST Countries API](https://restcountries.com/) to fetch
 -   **Design Pattern:** Follows MVVM (Model-View-ViewModel) principles (ViewModel not explicitly shown in attached code, but can be added for better separation of concerns). 🧱🏗️
 -   **Image Loading:** Glide for efficiently loading flag images. 🏞️🚀
 
-## 🛠️ Build and Run
-
-1.  **Clone the repository** (or use your existing project files). 📁⬇️
-2.  **Open the project in Android Studio.** 💻 IDE
-3.  **Ensure you have the necessary Android SDKs installed.** (Target SDK 35, Build Tools 34.0.0 or later). 🧩✅
-4.  **Sync your project with Gradle files.** (File > Sync Project with Gradle Files). 🔄🔧
-5.  **Connect an Android device or start an emulator.** 📱🔌
-6.  **Run the app!** (Run > Run 'app'). ▶️🚀
-
 Enjoy exploring the world! 🥳✨
