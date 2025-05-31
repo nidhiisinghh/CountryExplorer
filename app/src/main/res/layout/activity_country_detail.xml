@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A2B3C"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <ImageView
+                android:id="@+id/ivFlag"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/shape"
+                android:contentDescription="Country Flag"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tvCountryName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Guinea"
+                android:textColor="#3D0301"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/tvCapital"
+                style="@style/InfoText"
+                android:text="Capital: Conakry" />
+
+            <TextView
+                android:id="@+id/tvRegion"
+                style="@style/InfoText"
+                android:text="Region: Africa" />
+
+            <TextView
+                android:id="@+id/tvPopulation"
+                style="@style/InfoText"
+                android:text="Population: 13,132,792" />
+
+            <TextView
+                android:id="@+id/tvArea"
+                style="@style/InfoText"
+                android:text="Area: 245,857 km²" />
+
+            <TextView
+                android:id="@+id/tvCurrencies"
+                style="@style/InfoText"
+                android:text="Currencies: GNF (Guinean franc)" />
+
+            <TextView
+                android:id="@+id/tvLanguages"
+                style="@style/InfoText"
+                android:text="Languages: French" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.core.widget.NestedScrollView>
